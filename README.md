@@ -42,12 +42,20 @@ git clone https://github.com/subekshya-s/data-screening-exercise.git
 
     **Make sure Python 3 is installed, then install the required libraries:**
     
-    `pip install pandas numpy matplotlib jupyterlab`
+    ```bash
+    
+    pip install pandas numpy matplotlib jupyterlab
+
+    ```
+
        
                 
     **If using Anaconda:**
+    ```bash
 
-    `conda install pandas numpy matplotlib jupyterlab`
+    conda install pandas numpy matplotlib jupyterlab
+
+    ```
 
 3. **Launch JupyterLab:**
             From the project root directory, run:
@@ -147,3 +155,9 @@ DHS Appropriations Act, 2020 (H.R. 1158, Sec. 218).
 - All external guidance was reviewed, adapted, and implemented with my own understanding.
 
 - All analysis and final decisions reflect my independent work.
+
+## Top 10 Detention Facilities Visualization
+
+Here is the final output showing the top 10 ICE detention facilities by total population:
+
+![Top 10 Detention Facilities](data/top_10_detention_facilities.png)
