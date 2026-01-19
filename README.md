@@ -1,20 +1,25 @@
-# **Data Scientist Screeing Exercise -ICE Detention Facilities**
+# **Data Scientist Screening Exercise -ICE Detention Facilities**
 
-Overview
-
+# Overview
 This project analyzes and cleans a publicly released dataset of ICE detention facilities.
 The objective is to:
+
         -  Clean a messy real-world dataset
+
         -  Standardize facility names and inspection dates
+
         -  Calculate total detained population by facility
+
         -  Identify the top 10 detention facilities by total population
-        -  Visualize the results in a clear and publication-ready chart
+
+        -  Visualize the results in a clear and publication ready chart
+
         -  The work is implemented in a Jupyter Notebook using Python.
 
 
 # **Repository Contents**
-'''text
-├── ice_data_cleaning.ipynb        # Main notebook (data cleaning, analysis, visualization)
+```text
+├── ice_data_cleaning.ipynb  # Main notebook (data cleaning, analysis, visualization)
 ├── data/
 │   ├── messy_ice_detention.csv
 │   ├── partially_cleaned_ice_detention.csv
@@ -22,57 +27,57 @@ The objective is to:
 │   ├── top_10_detention_facilities.csv
 │   └── top_10_detention_facilities.png
 └── README.md
+```
 
 # **How to Run the Analysis Using the JupyterLab**
 
 1. **Clone the repository:**
-   git clone https://github.com/<your-username>/data-screening-exercise.git
+ ```bash
+git clone https://github.com/subekshya-s/data-screening-exercise.git
    cd data-screening-exercise
+```
+
 
 2. **Install Required Dependencies**
 
     **Make sure Python 3 is installed, then install the required libraries:**
-
-                  pip install pandas numpy matplotlib jupyterlab
-
-
+    
+    `pip install pandas numpy matplotlib jupyterlab`
+       
+                
     **If using Anaconda:**
 
-                 conda install pandas numpy matplotlib jupyterlab
+    `conda install pandas numpy matplotlib jupyterlab`
 
 3. **Launch JupyterLab:**
-   3. Launch JupyterLab
+            From the project root directory, run:
+                                                    `jupyter lab`
 
-        From the project root directory, run:
-
-                            jupyter lab
-
-This will open JupyterLab in your default web browser.
+            
+     This will open JupyterLab in your default web browser.
 
 4. **Open and Run the Notebook**
 
-             In the JupyterLab file browser, open ice_data_cleaning.ipynb
+   In the JupyterLab file browser, open `ice_data_cleaning.ipynb`.
 
-             Click Run → Run All Cells
-            Or run cells individually using Shift + Enter
+   - Click **Run → Run All Cells**
+   - Or run cells individually using **Shift + Enter**
 
 5. **Verify Outputs**
 
-After running the notebook, the following files will be generated in the data/ folder:
+   After running the notebook, the following files will be generated in the `data/` folder:
 
-cleaned_ice_detention.csv
+   - `cleaned_ice_detention.csv`
+   - `top_10_detention_facilities.csv`
+   - `top_10_detention_facilities.png`
 
-top_10_detention_facilities.csv
+   To ensure reproducibility, restart the kernel and run all cells again:
 
-top_10_detention_facilities.png
+   - **Kernel → Restart Kernel**
+   - **Run → Run All Cells**
 
-To ensure reproducibility, restart the kernel and run all cells again:
 
-Kernel → Restart Kernel
-
-Run → Run All Cells
-
-# **Methodology
+# **Methodology**
 
 1. **Data Cleaning**
 
@@ -89,7 +94,7 @@ Run → Run All Cells
     - Ensured all dates were standardized to datetime64[ns]
 
 2. **Data Analysis**
-   2. Data Analysis
+   
 
     - Created a Total Population column by summing:
         Level A
@@ -130,9 +135,15 @@ DHS Appropriations Act, 2020 (H.R. 1158, Sec. 218).
 
 # **Use of External Resources and AI Tools**
 
--This project was completed using a combination of personal understanding and external resources:
--ChatGPT was used to clarify pandas and matplotlib syntax and assist with data-cleaning strategies.
--YouTube tutorials were consulted for general data cleaning workflows and visualization techniques.
--Google search was used to reference documentation and verify facility information where required.
--All external guidance was reviewed, adapted, and implemented with my own understanding.
--All analysis and final decisions reflect my independent work.
+- This project was completed using a combination of personal understanding and external resources.
+
+- ChatGPT was used to clarify pandas and matplotlib syntax and assist with data-cleaning strategies.
+        Prompt used - (https://chatgpt.com/c/696cb2d9-9bcc-8322-86b6-417043f9131f)
+
+- YouTube tutorials were consulted for general data cleaning workflows and visualization techniques.
+
+- Google search was used to reference documentation and verify facility information where required.
+
+- All external guidance was reviewed, adapted, and implemented with my own understanding.
+
+- All analysis and final decisions reflect my independent work.
