@@ -31,7 +31,7 @@ The objective is to:
 │   │   ├── top_10_detention_facilities.csv                      # Top 10 results
 │   │   └── top_10_detention_facilities.png                      # Visualization
 └── README.md
-
+```
 
 # **How to Run the Analysis Using the JupyterLab**
 
