@@ -43,7 +43,7 @@ git clone https://github.com/subekshya-s/data-screening-exercise.git
     **Make sure Python 3 is installed, then install the required libraries:**
     
     ```bash
-    
+
     pip install pandas numpy matplotlib jupyterlab
 
     ```
@@ -158,6 +158,10 @@ DHS Appropriations Act, 2020 (H.R. 1158, Sec. 218).
 
 ## Top 10 Detention Facilities Visualization
 
-Here is the final output showing the top 10 ICE detention facilities by total population:
+The final results for the top 10 ICE detention facilities are saved in the `Final_Results/` folder in both **PNG** and **CSV** formats:
 
-![Top 10 Detention Facilities](data/top_10_detention_facilities.png)
+- **Visualization image:** `top_10_detention_facilities.png`  
+- **Data file:** `top_10_detention_facilities.csv`
+
+![Top 10 Detention Facilities](Final_Results/top_10_detention_facilities.png)
+
