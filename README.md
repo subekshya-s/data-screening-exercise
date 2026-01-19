@@ -17,17 +17,21 @@ The objective is to:
         -  The work is implemented in a Jupyter Notebook using Python.
 
 
-# **Repository Contents**
+# Repository Contents
+
 ```text
-├── ice_data_cleaning.ipynb  # Main notebook (data cleaning, analysis, visualization)
+├── ice_data_cleaning.ipynb                                      # Main notebook (data cleaning, analysis, visualization)
 ├── data/
-│   ├── messy_ice_detention.csv
-│   ├── partially_cleaned_ice_detention.csv
-│   ├── cleaned_ice_detention.csv
-│   ├── top_10_detention_facilities.csv
-│   └── top_10_detention_facilities.png
+│   ├── raw_data/
+│   │   └── messy_ice_detention.csv                              # Original messy dataset
+│   ├── partially_cleaned_data/
+│   │   └── partially_cleaned_ice_detention.csv                  # After removing some unnecessary rows
+│   ├── cleaned_data/
+│   │   ├── cleaned_ice_detention.csv                            # Final cleaned dataset
+│   │   ├── top_10_detention_facilities.csv                      # Top 10 results
+│   │   └── top_10_detention_facilities.png                      # Visualization
 └── README.md
-```
+
 
 # **How to Run the Analysis Using the JupyterLab**
 
@@ -73,7 +77,7 @@ git clone https://github.com/subekshya-s/data-screening-exercise.git
 
 5. **Verify Outputs**
 
-   After running the notebook, the following files will be generated in the `data/` folder:
+   After running the notebook, the following files will be generated in the `data/Cleaned_Data` folder:
 
    - `cleaned_ice_detention.csv`
    - `top_10_detention_facilities.csv`
